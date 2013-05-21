@@ -29,5 +29,3 @@ set number
 " Turn on syntax highlighting.
 syntax on
 
-autocmd VimEnter * NERDTree
-autocmd VimEnter * wincmd p
