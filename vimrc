@@ -18,11 +18,11 @@ set autoindent
 set cindent
 imap <C-Return> <CR><CR><C-o>k<Tab>
 set tabstop=4
-if has('gui running')
-	set guifont=Source\ Code\ Pro\ Bold\ 11
-endif
+
 :set makeprg=schumacherb
 
+set anti enc=utf-8
+set guifont=Source\ Code\ Pro\ Light\ 11 
 " backup to ~/.tmp 
 set backup 
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp 
