@@ -22,7 +22,7 @@ set tabstop=4
 :set makeprg=schumacherb
 
 set anti enc=utf-8
-set guifont=Source\ Code\ Pro\ Light\ 11 
+set guifont=Source\ Code\ Pro\ 9 
 " backup to ~/.tmp 
 set backup 
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp 
