@@ -17,6 +17,7 @@ colorscheme desert
 set autoindent
 set cindent
 imap <C-Return> <CR><CR><C-o>k<Tab>
+set shiftwidth=4
 set tabstop=4
 
 :set makeprg=schumacherb
