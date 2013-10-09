@@ -19,7 +19,9 @@ set cindent
 imap <C-Return> <CR><CR><C-o>k<Tab>
 set shiftwidth=4
 set tabstop=4
-
+autocmd BufRead,BufNewFile *.c,*.h,*.cpp set tabstop=4 | 
+					\ set shiftwidth=4 |
+					\ set cindent
 :set makeprg=schumacherb
 
 set anti enc=utf-8
